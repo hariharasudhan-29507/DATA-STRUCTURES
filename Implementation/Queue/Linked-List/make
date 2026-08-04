@@ -1,0 +1,6 @@
+ex4b.o : imp.o app.o
+	g++ imp.o app.o -o ex4b
+app.o : app.cpp
+	g++ -c app.cpp
+imp.o : imp.cpp
+	g++ -c imp.cpp
